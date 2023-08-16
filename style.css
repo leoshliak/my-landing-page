@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: goldenrod;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 1000px;
+    margin-top: 30px;
+  }
+  li{
+    list-style: none;
+  }
+  .nav-link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header h1{
+    margin-left: 150px;
+}
+.nav-link:hover{
+    color: blue;
+}
+.img-div{
+    margin-left: 300px;
+}
+img{
+    width: 400px;
+    display: flex;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px 0 #00000081;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(23, 27, 41);
+    padding: 60px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 80px;
+}
+.main h1{
+    color: white;
+    font-size:  50px;
+}
+.main p{
+    color: white;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+.main button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(245, 210, 13);
+    border: none;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+    color: black;
+    
+}
+.main button:hover{
+    border: 1px solid yellow;
+    color:rgb(245, 210, 13);
+    background-color: black;
+}
+.main button > a:hover{
+    color:rgb(245, 210, 13);
+}
+.projects-grid{
+    padding: 70px;
+    background-color: blanchedalmond;
+    
+}
+.projects-grid h1{
+    margin-top: -10px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.squares{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
+    grid-gap: 4em; 
+    margin-left: 100px;
+    margin-top: -15px;
+}
+.square{
+    margin: 0;
+  width: 100%;
+  padding: 2rem 0;
+}
+.square img{
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+}
+.square p{
+    font-size: 17px;
+    margin-left: -2px;
+}
+.quote{
+    padding: 80px;
+    background-color: lightgrey;
+    text-align: center;
+}
+.text{
+    font-size: 45px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 80px;
+}
+.author{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 900px;
+}
+.pon{
+    padding: 70px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sign_up{
+    background-color: rgb(23, 27, 41);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+    height: 140px;
+    align-items: center;
+    border-radius: 10px;
+}
+.sign-text p{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.pon button{
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rgb(245, 210, 13);
+    border: none;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 800;
+    color: black;
+}
+.pon button:hover{
+    border: 1px solid yellow;
+    color:rgb(245, 210, 13);
+    background-color: black;
+}
+.pon button > a:hover{
+    color:rgb(245, 210, 13);
+}
+footer{
+    padding: 15px;
+    background-color: rgb(23, 27, 41);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+}
